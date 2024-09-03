@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Veículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Veículo</h1>
+    </header>
+    <main>
+        <form action="/register-vehicle" method="post">
+            <label for="vehicle_plate">Placa:</label>
+            <input type="text" id="vehicle_plate" name="vehicle_plate" required>
+
+            <label for="vehicle_model">Modelo:</label>
+            <input type="text" id="vehicle_model" name="vehicle_model" required>
+
+            <label for="vehicle_color">Cor:</label>
+            <input type="text" id="vehicle_color" name="vehicle_color">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sistema de Estacionamento</p>
+    </footer>
+</body>
+</html>

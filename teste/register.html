@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+    <main>
+        <form action="/register" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="ra">RA:</label>
+            <input type="text" id="ra" name="ra">
+
+            <label for="drt">DRT:</label>
+            <input type="text" id="drt" name="drt">
+
+            <label for="employee_code">Código de Funcionário:</label>
+            <input type="text" id="employee_code" name="employee_code">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sistema de Estacionamento</p>
+    </footer>
+</body>
+</html>
