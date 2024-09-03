@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Estacionamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Sistema de Estacionamento</h1>
+        <nav>
+            <a href="login.html">Login</a
+            <a href="register.html">Cadastro</a>
+        </nav>
+    </header>
+    <main>
+       
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="register.html">Cadastro de Usuário</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="vehicle.html">Gerenciamento de Veículos</a></li>
+                    <li><a href="payment.html">Pagamento</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+
+    </main>
+
+    <section id="notificacoes">
+        <h2>Notificações</h2>
+        <!-- Lista de notificações -->
+        <div id="lista-notificacoes">
+            <!-- Notificações seriam carregadas dinamicamente -->
+        </div>
+    </section>
+
+    <section id="relatorios">
+        <h2>Relatórios</h2>
+        <!-- Formulário para gerar relatórios -->
+        <form action="/api/relatorios" method="GET">
+            <label for="data_inicio">Data de Início:</label>
+            <input type="date" id="data_inicio" name="data_inicio" required>
+            
+            <label for="data_fim">Data de Fim:</label>
+            <input type="date" id="data_fim" name="data_fim" required>
+            
+            <button type="submit">Gerar Relatório</button>
+        </form>
+    </section>
+
+    <section id="saiba-mais">
+        <h2>Saiba Mais</h2>
+        <p>Aqui você pode consultar dúvidas frequentes, fazer reclamações, sugestões e comentários.</p>
+        <!-- Adicione um formulário ou uma lista de FAQs aqui -->
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Sistema de Estacionamento</p>
+    </footer>
+</body>
+</html>
